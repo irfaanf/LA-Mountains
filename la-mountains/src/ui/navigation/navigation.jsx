@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import MountainIcon from '../../assets/mountain-icon.png';
-import CustomNavLink from './CustomNavLink';
+import CustomNavLink from './customNavLink';
 
 const Navigation = () => {
     return (
@@ -33,7 +33,7 @@ const Navigation = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
-                    <Nav className="text-white">
+                    <Nav>
                         <CustomNavLink>01. History</CustomNavLink>
                         <CustomNavLink>02. Team</CustomNavLink>
                     </Nav>

@@ -1,17 +1,14 @@
 import './App.css'
 import Navigation from './ui/navigation/navigation'
 import { PageBackground } from './ui/pageBackground'
-{
-  /* The following line can be included in your src/index.js or App.js file */
-}
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
-      <PageBackground>
-        <Navigation />
-      </PageBackground>
+    <PageBackground>
+      <Navigation />
+    </PageBackground>
   )
 }
 
