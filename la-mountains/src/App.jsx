@@ -1,5 +1,5 @@
 import './App.css'
-import Navigation from './ui/navigation'
+import Navigation from './ui/navigation/navigation'
 import { PageBackground } from './ui/pageBackground'
 {
   /* The following line can be included in your src/index.js or App.js file */
